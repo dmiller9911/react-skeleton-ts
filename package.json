@@ -1,0 +1,16 @@
+{
+  "name": "react-skeleton-ts",
+  "version": "1.0.0",
+  "description": "Skelton for a React Application using typescript.  Includes webpack, jest, enzyme.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "TypeScript",
+    "React",
+    "Webpack"
+  ],
+  "author": "Doug Miller <doug.miller@moseyout.com>",
+  "license": "MIT"
+}
