@@ -1,0 +1,85 @@
+exports[`HomePage matches snapshot 1`] = `
+<HeroPage
+  hero={
+    <Hero>
+      <Container>
+        <Heading
+          classNames={
+            Array [
+              Object {
+                "_definition": Object {
+                  "color": "#fff",
+                  "fontSize": "2.75rem",
+                  "textAlign": "center",
+                },
+                "_name": "heroHeader_1wu7yln",
+              },
+            ]
+          }
+          level={1}>
+          React + TypeScript
+        </Heading>
+      </Container>
+    </Hero>
+  }>
+  <section>
+    <Heading
+      classNames={
+        Array [
+          Object {
+            "_definition": Object {
+              "textAlign": "center",
+            },
+            "_name": "contentHeader_1ntyrs8",
+          },
+        ]
+      }
+      level={2}>
+      Basic Stack
+    </Heading>
+    <div>
+      <TechList
+        techItems={
+          Array [
+            Object {
+              "description": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.",
+              "githubLink": "https://github.com/Microsoft/TypeScript",
+              "iconUrl": "/home/douglasmi/src/react-skeleton-ts/src/assets/techLogos/ts.png",
+              "name": "TypeScript",
+            },
+            Object {
+              "description": "A JavaScript library for building user interfaces",
+              "githubLink": "https://github.com/facebook/react",
+              "iconUrl": "/home/douglasmi/src/react-skeleton-ts/src/assets/techLogos/react.png",
+              "name": "React",
+            },
+            Object {
+              "description": "Declarative routing for React",
+              "githubLink": "https://github.com/ReactTraining/react-router",
+              "iconUrl": "/home/douglasmi/src/react-skeleton-ts/src/assets/techLogos/react-router.png",
+              "name": "React Router (V3)",
+            },
+            Object {
+              "description": "It\'s inline styles, but they work!",
+              "githubLink": "https://github.com/Khan/aphrodite",
+              "iconUrl": "/home/douglasmi/src/react-skeleton-ts/src/assets/techLogos/aphrodite.png",
+              "name": "Aphrodite",
+            },
+            Object {
+              "description": "A bundler for javascript and friends.",
+              "githubLink": "https://github.com/webpack/webpack",
+              "iconUrl": "/home/douglasmi/src/react-skeleton-ts/src/assets/techLogos/webpack.png",
+              "name": "Webpack",
+            },
+            Object {
+              "description": "Painless JavaScript Testing.",
+              "githubLink": "https://github.com/facebook/jest",
+              "iconUrl": "/home/douglasmi/src/react-skeleton-ts/src/assets/techLogos/jest.png",
+              "name": "Jest",
+            },
+          ]
+        } />
+    </div>
+  </section>
+</HeroPage>
+`;

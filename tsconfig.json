@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es6",
+      "scripthost"
+    ],
+    "noEmit": true,
+    "noEmitOnError": false,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "removeComments": false,
+    "target": "es5",
+    "baseUrl": ".",
+    "types": ["webpack-env", "jest"]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
